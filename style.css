@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Kanit&family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Kanit&family=Lusitana&family=Righteous&family=Sarala&display=swap');
+
+
+body{
+    background: black;
+    color:  white;
+
+}
+
+.creditos{
+    color: white;
+    font-size: 12pt;
+
+}
+#titulo{
+    color: rgb(60, 255, 0);
+    text-align: center;
+    padding: -25px;
+    font-size: 20pt;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+}
+
+#notas{
+    color: white;
+    background: rgb(77,157,240);
+    background: linear-gradient(7deg, rgba(77,157,240,0.9948354341736695) 37%, rgba(65,42,242,1) 77%);
+    padding: 80px;
+    text-align: center;
+    font-size: 15pt;
+
+
+}
+
+.titulo-input{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+
+}
+
+#res{
+    font-size: 20pt;
+    font-family: 'Epilogue', sans-serif;
+}
+
+#botao{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    font-size: 12pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+
+#fundo-nota{
+
+    display: flex;
+    border-radius: 44px;
+    width: auto;
+    height: auto;
+
+    background-color: rgba(112, 112, 21, 0.809);
+}

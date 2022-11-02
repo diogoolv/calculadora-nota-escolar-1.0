@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="janela">Calculadora de Nota Escolar - v1.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="notas">
+    <header id="titulo"> 
+         <p class="creditos">Desenvolvido por : Diogo Oliveira</p>
+         <h1>Calculadora de Nota Escolar Online <mark>- v1.0</mark></h1>
+    </header>
+
+    <main >
+        <div id="fundo-nota">
+            <p class="titulo-input">Nome do Aluno(a) <input type="text" placeholder="Coloque o nome completo do aluno" name="nomealuno" id="nomedoaluno"></p>
+            <p class="titulo-input">Nota Matemática: <input type="number" placeholder="Coloque a nota do aluno" name="notamat" id="notamat"></p>
+            <p class="titulo-input">Nota Português: <input type="number" placeholder="Coloque a nota do aluno" name="notapot" id="notapot"></p>
+            <p class="titulo-input">Nota História: <input type="number" placeholder="Coloque a nota do aluno" name="notahis" id="notahis"></p>
+            <p class="titulo-input">Nota Inglês: <input type="number" placeholder="Coloque a nota do aluno" name="notaing" id="notaing"></p>
+            <input id="botao" type="button" value="Clique para calcular a média" onclick="Clicou()">
+        </div>
+        <p id="res">Aqui aparecerá a média do seu aluno...</p>
+    </div>
+    </main>
+
+    <footer>
+        <h2> Como a calculadora de nota funciona? </h2>
+        <p> Ela somará todas as notas preenchida e dividirá por dois.</p>
+        <hr>
+        <h2>Média cadastrada:</h2>
+        <p>Cadastramos uma média de 5 pontos.</p>
+        <hr>
+        <h2> Importante!</h2>
+        <p> Essa é a primeira versão dela. Atualmente ela apenas soma as notas, mas em breve quero adicionar mais opções.</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
