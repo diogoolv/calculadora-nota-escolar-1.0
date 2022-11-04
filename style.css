@@ -8,6 +8,7 @@ body{
 
 }
 
+
 .creditos{
     color: white;
     font-size: 12pt;
@@ -19,7 +20,6 @@ body{
     padding: -25px;
     font-size: 20pt;
     font-family: 'Epilogue', sans-serif;
-    font-weight: bold;
 }
 
 #notas{
@@ -34,7 +34,7 @@ body{
 }
 
 .titulo-input{
-    text-align: center;
+    text-align: right;
     font-family: 'Righteous', cursive;
 
 
@@ -60,9 +60,22 @@ footer{
 #fundo-nota{
 
     display: flex;
+    flex-direction: row;
     border-radius: 44px;
     width: auto;
     height: auto;
 
     background-color: rgba(112, 112, 21, 0.809);
 }
+
+@media only screen and (max-width: 600px) {
+    #fundo-nota {
+        display: inline-block;
+        background-color:rgb(74, 52, 52);
+    }
+
+    .titulo-input{
+        text-align: center;
+    }
+  }
+
