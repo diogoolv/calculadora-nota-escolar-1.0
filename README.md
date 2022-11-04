@@ -16,5 +16,5 @@
 
   
   <h1>Acesse o projeto</h1>
-  <a href="https://calculadora-nota-escolar-1-0.vercel.app/">Calculadora </a> 
+  <a href="https://calculadora-nota-escolar-1-0.vercel.app/">Calculadora Nota Escolar </a> 
 <h4>Faça bom uso desse projeto! 💖</h4>
