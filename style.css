@@ -77,5 +77,14 @@ footer{
     .titulo-input{
         text-align: center;
     }
+
+    #titulo{
+        text-align: center;
+
+    }
+
+    body{
+        text-align: center;
+    }
   }
 
