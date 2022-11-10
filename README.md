@@ -15,5 +15,7 @@
 <li>Enviar a nota para o aluno via Whatsapp</li>
 
   
-  <h1>Acesse o projeto</h1>
-  <a href="https://site-bank-8n8u.vercel.app/">Acessar agora! </a> 
+<h2>Clique no botão abaixo para acessar o projeto.</h2>  
+  
+<h1>Acesse o projeto</h1>
+  <a href="https://calculadora-nota-escolar-1-0.vercel.app/">Calculadora Nota Escolar </a> 
